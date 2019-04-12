@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'language';
+  data: any;
+
+  constructor(private _http: HttpClient) {
+    this.data = this._http.get('http://www.anwb.nl/feeds/gethf');
+  }
+
+
+
 }
