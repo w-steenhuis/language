@@ -1,15 +1,33 @@
-<h1>{{ "WELCOME" | translate }}</h1>
-<button *ngFor="let lang of languages" (click)="switchLanguage(lang)">
-  {{ lang }}
-</button>
-<div>
-  <a [routerLink]="'/lazy'">{{ 'LAZY' | translate }}</a>
-</div>
-<div>
-  <a [routerLink]="'/'">{{ 'EAGER' | translate }}</a>
-</div>
-
-<div>
-  >ROUTER OUTLET:
-</div>
-<router-outlet></router-outlet>
+<main>
+  <h1>{{ "WELCOME" | translate }}</h1>
+  <div class="form-group">
+    <div class="btn-group">
+      <button
+        class="btn btn-cog btn-outline-primary"
+        *ngFor="let lang of languages"
+        (click)="switchLanguage(lang)"
+      >
+        {{ lang }}
+      </button>
+    </div>
+  </div>
+  <div class="form-group">
+    <div class="btn-group">
+      <button
+        class="btn btn-reset btn-outline-secondary"
+        [routerLink]="'/eager'"
+        routerLinkActive="active"
+      >
+        {{ "EAGER" | translate }}
+      </button>
+      <button
+        class="btn btn-reset btn-outline-secondary"
+        [routerLink]="'/lazy'"
+        routerLinkActive="active"
+      >
+        {{ "LAZY" | translate }}
+      </button>
+    </div>
+  </div>
+  <section><router-outlet></router-outlet></section>
+</main>

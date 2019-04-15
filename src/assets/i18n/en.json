@@ -2,5 +2,7 @@
     "WELCOME": "Welcome in English!",
     "THANKS": "Thanks!",
     "LAZY": "Lazy",
-    "EAGER": "Eager"
+    "EAGER": "Eager",
+    "EAGER_LOADING_TITLE": "Eager Loading component.",
+    "LAZY_LOADING_TITLE": "Lazy Loading component."
 }

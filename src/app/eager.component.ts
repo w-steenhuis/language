@@ -4,7 +4,7 @@ import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   template: `
-    <h1>{{ 'THANKS' | translate }}</h1>
+    <h1>{{ 'EAGER_LOADING_TITLE' | translate }}</h1>
 
     <ng-container *ngIf='(data | async) as trafficInfo'>
       <div *ngFor='let roadEntry of trafficInfo.roadEntries'>

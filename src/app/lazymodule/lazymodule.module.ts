@@ -1,5 +1,4 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
 import { LazyComponent } from './lazy.component';
 import { SharedModule } from '../shared/shared.module';
 import { Routes, RouterModule } from '@angular/router';
@@ -11,6 +10,6 @@ const routes: Routes = [
 
 @NgModule({
   declarations: [LazyComponent],
-  imports: [RouterModule.forChild(routes), CommonModule, SharedModule]
+  imports: [RouterModule.forChild(routes), SharedModule]
 })
 export class LazymoduleModule {}
