@@ -1,6 +1,8 @@
 {
-    "WELCOME": "Bienvenue en Francais!",
-    "THANKS": "Merci Beaucoup!",
+    "WELCOME": "Bienvenue en Francais !",
+    "THANKS": "Merci Beaucoup !",
     "LAZY": "Paresseux",
-    "EAGER": "Désireux"
+    "EAGER": "Désireux",
+    "EAGER_LOADING_TITLE": "Composant de chargement avide.",
+    "LAZY_LOADING_TITLE": "Composant de chargement paresseux."
 }
