@@ -1,9 +1,15 @@
-<ng-container *ngIf="(data | async) as trafficInfo">
-  <div *ngFor="let roadEntry of trafficInfo.roadEntries">
-    <ng-container *ngIf="roadEntry.events.trafficJams.length">
-      <div *ngFor="let incident of roadEntry.events.trafficJams">
-        {{ incident.location }} {{ incident.distance/1000 | number }} km {{ incident.from }} - {{ incident.to }}
-      </div>
-    </ng-container>
-  </div>
-</ng-container>
+<h1>{{ "WELCOME" | translate }}</h1>
+<button *ngFor="let lang of languages" (click)="switchLanguage(lang)">
+  {{ lang }}
+</button>
+<div>
+  <a [routerLink]="'/lazy'">{{ 'LAZY' | translate }}</a>
+</div>
+<div>
+  <a [routerLink]="'/'">{{ 'EAGER' | translate }}</a>
+</div>
+
+<div>
+  >ROUTER OUTLET:
+</div>
+<router-outlet></router-outlet>

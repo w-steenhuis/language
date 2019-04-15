@@ -1,4 +1,6 @@
 {
-  "WELCOME": "Ahoj světe!\n",
-  "THANKS" : "Danke!"
+  "WELCOME": "Welcome in English!",
+  "THANKS" : "Thanks!",
+  "LAZY" : "",
+  "EAGER" : ""
 }
