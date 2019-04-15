@@ -1,6 +1,6 @@
 {
-  "WELCOME": "Welcome in English!",
-  "THANKS" : "Thanks!",
-  "LAZY" : "",
-  "EAGER" : ""
+    "WELCOME": "Welcome in English!",
+    "THANKS": "Thanks!",
+    "LAZY": "Lazy",
+    "EAGER": "Eager"
 }
