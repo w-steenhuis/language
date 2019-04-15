@@ -2,5 +2,7 @@
     "WELCOME": "Welkom voor alle cheeseheads!!",
     "THANKS": "Dank u!",
     "LAZY": "Lui",
-    "EAGER": "Gretig"
+    "EAGER": "Gretig",
+    "EAGER_LOADING_TITLE": "Gretig geladen bestandsdeel.",
+    "LAZY_LOADING_TITLE": "Lui geladen bestanddeel."
 }
