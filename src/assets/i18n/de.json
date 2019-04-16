@@ -1,8 +1,8 @@
 {
-    "WELCOME": "",
-    "THANKS": "",
-    "LAZY": "",
-    "EAGER": "",
-    "EAGER_LOADING_TITLE": "",
-    "LAZY_LOADING_TITLE": ""
+    "WELCOME": "Wilkommen!",
+    "THANKS": "Danke Schön!",
+    "LAZY": "Faul",
+    "EAGER": "Eifrig",
+    "EAGER_LOADING_TITLE": "Eifrig Laded Komponente.",
+    "LAZY_LOADING_TITLE": "Faul Laded komponente."
 }
