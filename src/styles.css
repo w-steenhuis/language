@@ -1,2 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
-@import '~@dynalinq-npm/obii-sass-toolkit/css/theme';
+@import "~@dynalinq-npm/obii-sass-toolkit/css/theme";
+
+.balloon {
+  border: 1px solid black;
+  border-radius: 50%;
+  text-align: center;
+  width: auto;
+  display: inline-block;
+  position: relative;
+  vertical-align: top;
+  margin-left: -82px;
+}
+.balloon::before {
+  content: "";
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  position: absolute;
+  bottom: 0;
+  left: 48%;
+  margin-bottom: -14px;
+  transform: rotate(-126deg);
+  width: 20px;
+  height: 30px;
+  background-color: white;
+}

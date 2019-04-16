@@ -6,6 +6,7 @@
         class="btn btn-cog btn-outline-primary"
         *ngFor="let lang of languages"
         (click)="switchLanguage(lang)"
+        [ngClass]="{ 'active': lang === selected }"
       >
         {{ lang }}
       </button>
